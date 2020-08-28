@@ -1,0 +1,64 @@
+.divFondo{
+    margin:0;
+    min-height: 100vh;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.divFondo:before{
+    content:"";
+    width: 100%;
+    min-height: 100vh;
+    position:absolute;
+    top:0;
+    left:0;
+    background:linear-gradient(blue,lightblue);
+    
+    
+    
+}
+.form-container{
+    margin-top: 20px;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    
+}
+.divContainer{
+    margin-top: 5px;
+    padding:0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+letter-spacing: 1px;
+}
+.tableContainer{
+    margin-top: 20px;
+    background-color:#abdde5;
+    padding:30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    
+    
+    
+}
+
+footer {
+    background:#444;
+    padding:30px;
+}
+
+.copy {
+    padding-top: 30px;
+}
+.divViajes{
+    margin-top: 5px;
+    background-color:#BEE5EB;
+    padding:0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+letter-spacing: 1px;
+
+}
